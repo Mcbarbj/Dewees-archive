@@ -1,13 +1,22 @@
-        /* Additional styles for centering the navigation items */
-        nav {
-            text-align: center; /* Center-aligns all content inside the <nav> */
-        }
-        nav ul {
-            display: inline-block; /* Display the <ul> as inline-block to center it */
-            list-style-type: none; /* Removes default list styling */
-            padding: 0;
-        }
-        nav ul li {
-            display: inline-block; /* Display list items inline-block */
-            margin-right: 10px; /* Adds a small margin between items */
-        }
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Ensures full height on the viewport */
+    margin: 0; /* Removes default body margin */
+}
+
+.container {
+    max-width: 520px;
+    text-align: center;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto; /* Ensures image aspect ratio is maintained */
+}
+
+.container p {
+    /* Add any additional styles */
+}
