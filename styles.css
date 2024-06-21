@@ -1,0 +1,13 @@
+        /* Additional styles for centering the navigation items */
+        nav {
+            text-align: center; /* Center-aligns all content inside the <nav> */
+        }
+        nav ul {
+            display: inline-block; /* Display the <ul> as inline-block to center it */
+            list-style-type: none; /* Removes default list styling */
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block; /* Display list items inline-block */
+            margin-right: 10px; /* Adds a small margin between items */
+        }
